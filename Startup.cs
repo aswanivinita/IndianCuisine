@@ -23,6 +23,8 @@ namespace IndianCuisine
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            app.UseNodeModules();
+
 
         }
     }
